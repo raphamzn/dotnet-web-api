@@ -1,0 +1,94 @@
+# Arquivos e pastas do .NET Core
+WebApi/bin*
+obj/
+*.user
+*.userosscache
+*.suo
+.vs/
+.vscode/
+*.dbmdl
+*.jfm
+
+# Arquivos temporários
+[Tt]emp/
+[Tt]mp/
+*.tmp
+*.temp
+*.log
+
+# Arquivos de build
+[Bb]in/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]uild/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio
+.vs/
+*.ncrunch*
+*.[Pp]ublish.xml
+*.azurePubxml
+*.pubxml
+*.publishproj
+PublishProfiles/
+ServiceDependencies/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Banco de dados
+*.mdf
+*.ldf
+*.ndf
+
+# Secrets e configurações
+appsettings.*.json
+!appsettings.json
+*.Development.json
+*.Production.json
+*.Staging.json
+*.Local.json
+secrets.json
+*.pfx
+*.key
+*.crt
+
+# Pasta de dependências
+packages/
+node_modules/
+
+# Ferramentas
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+_TeamCity*
+*.dotCover
+
+# Logs e relatórios
+[Ll]ogs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+TestResults/
+[Tt]est[Rr]esult*/
+coverage/
+*.coverage
+*.coveragexml
+
+# Cache e arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Arquivos de documentação gerados
+docs/_build/
+docs/_site/
