@@ -8,7 +8,7 @@ using WebApi.ViewModels;
 namespace WebApi.Controllers;
 
 [ApiController]
-[Route("v1")]
+[Route("api/v1")]
 public class TodoController : ControllerBase
 {
     [HttpGet]
